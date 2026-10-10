@@ -1,0 +1,41 @@
+# Experiment 007 engineering validation
+
+Validated 2026-10-09 on Windows `x86_64` with pinned `rustc 1.99.0 (b940084d7 2026-09-28)`, `cargo 1.99.0 (5f94df478 2026-08-27)`, host `x86_64-pc-windows-msvc` and LLVM 23.1.1. Full rustc commit is `b940084d7eb6a299eb4bfeb8e34901bc051e7ac4`. Cargo.lock SHA-256 is `360931d88271e853ace662b91ff45c6df0537a94c029f7318b7f230812099c92`. New SHA-256 dependency is pinned `sha2=0.10.9`; all prior dependency versions remain unchanged. Toolchain metadata stays outside canonical simulation evidence.
+
+## Completed gates
+
+Before the primary freeze: `cargo fmt --all -- --check`; `cargo clippy --locked --all-targets --all-features -- -D warnings`; complete `cargo test --locked --all-features --release`; integrity checks on 001–006 frozen SHA-256 bytes; actual Linux availability attempt; staged diff review and `git diff --check`. The release suite passed 95 tests (six unit and 89 integration, including two new 007 unit and 18 new 007 integration tests), zero failures/ignored, zero doctests. The added CLI regeneration check passed on sequential retry. Primary evaluation executed 1792 series,5200 incidents, complete canonical replay for every series,88 groups and 44 comparisons preserving current wire/private inputs in 64/64 matched worlds. No primary selected action was rejected. Development seeds 0–15 and held-out 1000–1063 are disjoint.
+
+The implementation/test commits preceded `cargo run --locked --release --bin experiment007 -- evaluate evidence/experiment-007.json` and the separate `replay evidence/experiment-007-windows.json`. Both used create-new successfully. The new frozen regression then compared every compact evidence byte and the complete independent Windows manifest against a fresh evaluation. Final fmt, all-target/all-feature warnings-denied Clippy and full locked release test suite passed again:95 tests, zero failures/ignored. No primary implementation/configuration/seeds/metrics changed after freeze. Historical sources/test files remain unchanged; src/lib.rs gains only the 007 module export. Historical 001–006 documents/artifacts are preserved. The Constitution's ten numbered principles are unchanged.
+
+## Coverage and resolved development failures
+
+New checks cover authenticated factual error without recipient omniscience; retained conflict in both truth orders; delayed quarantine and immutable past cognition; forbidden audit reconstruction after eviction; unknown/missing/selective feedback; outcome versus verdict; session/episode/serial association; duplicates/reissued agreement; unchanged 006 acceptance behavior; narrow typed policy inputs; hidden-world/fault-label invariance; exact cognition credit snapshots; forecast timing and absence of future truth; legal silence/abstention; bounded incidents/plans/routes/memory; invalid custom updater identity; canonical sorted keys/ordered arrays/float rejection; standard SHA-256 reference; CLI scenario/full-report regeneration and overwrite refusal; whole primary replay, matching controls, frozen-byte and manifest regression. Historical tests continue to cover legal actions, resource budgets, revision ownership, voting threshold/ties and termination. A unit test demonstrates nonadditive clamping requires ordered recomputation instead of subtracting an old score. Numerical losses agree within one unit (1e-6) with an independent floating-point reference over 2002 outcome/probability cases; float arithmetic occurs only in tests.
+
+Resolved failures are retained here: an initial SHA formatting compile error was fixed by finalizing the hasher; Clippy flagged iterator/modulo/checked-division style and an unused import; two new test field names were corrected to the existing Comparison fields. The first integrity test run passed 14/15: the misassociated-token assertion wrongly expected total zero credit despite a separate legitimate token. It now checks rejection of the malformed token and acceptance of the legitimate one; no mechanism was tuned. Renaming an audit event to VerificationResolved required formatting again, after which the fmt gate passed. An overlapping rebuild hit Windows LNK1104 because the running test executable was locked; sequential retry passed. An older debug suite, which had passed the historical tests and 17 focused 007 checks, was deliberately stopped after the audit-schema change; its interrupted run is not reported as a completed gate. The final complete release suite covers the current code. None of these was treated as an empirical success or caused held-out policy tuning.
+
+## Platform gate
+
+The independent Windows execution records committed implementation revision `241cd816dcdcc0169a59184b53a17fd4e3dac890`, OS windows, architecture `x86_64` and the versions/lock hash above. Documentation was pending at execution; evaluated source/configuration was committed. Canonical evaluation digest is `031c4e3977e6367c59047c0ceca95378d99b5e20ec944ce7195420955082d149`; summary metric digest `105ba1b3c7bca838643a7f73bd9ad655557f6460d462a7c421c317e54bc37c7e`. Each of 1792 series has full_series, incidents_events, feedback, memory_cognition, forecasts and ballots_outcomes hashes. The post-freeze test matches all manifest fields, not only outcome totals. Raw artifact hashes are separately listed below.
+
+Linux gate **unverified**. `wsl --list --quiet` failed with Windows Subsystem for Linux not installed; no Docker executable exists. The requested CLI comparison was invoked with the real Windows manifest and expected Linux path, and failed with file-not-found because Linux did not execute. No Linux artifact was fabricated. The committed `.github/workflows/experiment007-replay.yml` has pinned official action revisions, Windows/Ubuntu jobs, pinned Rust/locked dependencies, full gates, independent live manifest regeneration, upload/download and comparison; it has not run because no push/CI trigger was authorized. Synthetic comparator tests assert environment/digest mismatch handling only. Neither Windows/Linux nor other-architecture portability has been verified. To close the gate, actually run both jobs on one common committed revision and compare their live manifests; the frozen Windows artifact belongs to its recorded earlier revision and cannot be paired with a different HEAD.
+
+## Artifact integrity
+
+| Artifact | Bytes | SHA-256 |
+|---|---:|---|
+| experiment-001.json | 2725107 | `5d3b9ed1b7ae71029bdfa2251fc702e1455c38db0e22550ec21282a2821e7356` |
+| experiment-002.json | 11841127 | `08fec1b1685f8e9d5c064374bdec25c4ae6f67da08ae6a88c013a9e16fbb1d32` |
+| experiment-003.json | 25296793 | `758c8afb75fd8b76450ee2b9470bdaf3d90a7849c4e05166002cc2674d6330bd` |
+| experiment-004.json | 46286603 | `f8dee33c8282cc1caafde7d6b5c00cca68e001e96e70ee9b7641c62850a71fad` |
+| experiment-005.json | 72225029 | `3b30bdaec3496d5f4018f42a0d110cc7d67415ee3e0bf73b990ebc7d158e47e6` |
+| experiment-006.json | 405837038 | `34e27342c14c1b09fe44cd268e9d9f5dc38d7335797bbdbdb32de4098fc5a360` |
+| experiment-007-windows.json | 892966 | `44cb24f848a90554056b4222752dfd4b15caa85e8f152e33eefe46cd1f5e7d3b` |
+| experiment-007.json | 117084630 | `1ce7952585ab3197243daf33b8ecc68dc54b071f7a6c508953d830ed61e21864` |
+
+
+Frozen JSON and Cargo.lock have Git newline translation disabled. Old hashes were checked before implementation, before freeze and after freeze, matching 006's recorded values. Compact 007 storage is 117084630 bytes plus 892966 bytes of platform metadata/manifest, avoiding a duplicate full-report collection. These are serialized sizes, not a RAM/runtime benchmark. Full reports regenerate with the scenario/run commands in README; canonical hashes cover details omitted from compact traces.
+
+## Git record
+
+Branch `codex/experiment-007`. Preregistration `e98ca72`; implementation/evaluation `efceb9d`; focused tests/example/platform CI `241cd81`; frozen-data/regression `9d38499`; subsequent findings/documentation commits are listed in the final completion report and git log. Each milestone uses scoped staging, diff checks and staged review. No historical commit was amended/reset, no frozen file overwritten, no push occurred and Experiment 008 was not started. Final source hashes/status are checked after documentation. Engineering completion does not imply predictive success or validated portability; see results.md.

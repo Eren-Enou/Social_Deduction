@@ -82,3 +82,16 @@ Decided for Experiment 006, rules `multi-incident-006-v1`, preregistered in comm
 - Freeze new evidence only after formatting, warnings-denied Clippy, full tests and old artifact integrity checks. Refuse overwrite and commit preregistration, implementation and reproducible findings; no remote push without authorization.
 
 Open after 006 authorization: alternative weights/update eligibility/retention, outcome-verifier realism, attribution validation, wider identity/order structures and richer voluntary strategies. Global reputation, coalition behavior, trained models and Experiment 007 are outside this task.
+
+
+Decided for Experiment 007, preregistered in `e98ca72` before primary evaluation:
+
+- Preserve001–006 source, test contracts and frozen bytes. Wrap unchanged005 resolution/006 baseline rather than modifying them. Use pinned Rust1.99.0, locked dependencies and SHA-256 for new canonical manifests only.
+- Treat issuer authentication as a simulated transport fact distinct from factual accuracy. Declare all fault injections and recipient scope in observer records. A recipient cannot infer a first well-associated authenticated lie merely because the observer knows it is false.
+- Compare first-accepted unchanged006 updating with conservative007 quarantine for retained contradictory outcomes. Recompute bounded retained contributions in historical order over a consequence checkpoint; do not subtract from clamped scores. Quarantine supplies uncertainty, not knowledge of which outcome was true. No rollback from an audit archive after eviction.
+- Use simple session/episode/serial association checks, not production cryptography or arbitrary verifier competence. Missing verification stays unknown; verdicts remain unverified. Tokens contain no fault labels or objective accuracy.
+- Evaluate neutral1/2, ordinal006 score and Beta(1,1) historical frequency separately from decision weighting. The latter is an explicit probability model whose calibration must be measured, not presumed. Do not change policies on the held-out seeds.
+- Use64 independent generated worlds, six fault streams, two acceptance policies and two listeners, plus16 diagnostic families over four seeds. Report all-voter correctness/wrongness, abstention, coverage, conditional accuracy, verdict outcomes and utilities at three error costs. Bootstrap whole matched worlds, never count dependent votes as independent samples.
+- Freeze compact causal evidence with complete canonical report/section hashes; regenerate full reports through the CLI. Refuse overwrite. Keep actual platform/revision/toolchain/lock metadata outside canonical evidence. Require real executions on both OS for a portability claim; unavailable Linux remains explicitly unverified.
+
+Open after007: verified recovery after forgotten detail, alternative acceptance/checkpoint/weight/predictor rules, broader distribution shift and verifier competence, real authentication, global reputation and richer communication. Experiment008 has not begun.

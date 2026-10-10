@@ -522,6 +522,12 @@ fn private_anchor_and_own_echo_survive_weighting_without_added_independence() {
 #[test]
 fn primary_contracts_and_every_serialized_series_replay() {
     let e = evaluate().unwrap();
+    let frozen = std::fs::read(concat!(
+        env!("CARGO_MANIFEST_DIR"),
+        "/evidence/experiment-006.json"
+    ))
+    .unwrap();
+    assert_eq!(serde_json::to_vec_pretty(&e).unwrap(), frozen);
     assert_eq!((e.series, e.incidents, e.replay_matches), (352, 1056, 352));
     assert_eq!(e.fixtures.len(), 44);
     assert_eq!(e.listener_pairs.len(), 176);

@@ -6,6 +6,7 @@ pub mod experiment004;
 pub mod experiment005;
 pub mod experiment006;
 pub mod experiment007;
+pub mod experiment008;
 
 pub const N: u8 = 6;
 pub const RULES: &str = "incident-001-v1";

@@ -139,7 +139,20 @@ cargo test --locked --all-features --release
 
 Use `scenario diagnostic RewardFalse 0 ConflictAware Credibility new-config.json` for diagnostic regeneration. Scenario names, seed, acceptance and listener in each frozen row identify the full report to regenerate. [Specification](experiments/007/specification.md), [findings](experiments/007/results.md), [validation](experiments/007/validation.md) and [frozen evidence](evidence/experiment-007.json) distinguish authentication, factual accuracy, local detectability, predictive quality and decision utility. Forecasts never receive future assertions or observer truth and never affect ballots. Compact evidence retains causal traces and six canonical digests per complete series; full reports remain observer-only.
 
-Actual Linux replay is unavailable locally. The [CI workflow](.github/workflows/experiment007-replay.yml) independently regenerates Windows/Linux manifests and compares them; it has not been executed. After real executions on the same committed revision, run `cargo run --locked --release --bin experiment007 -- compare windows-manifest.json linux-manifest.json`. Synthetic comparator tests do not constitute OS validation. No Experiment 008 has begun.
+Actual Linux replay is unavailable locally. The [CI workflow](.github/workflows/experiment007-replay.yml) independently regenerates Windows/Linux manifests and compares them; it has not been executed. After real executions on the same committed revision, run `cargo run --locked --release --bin experiment007 -- compare windows-manifest.json linux-manifest.json`. Synthetic comparator tests do not constitute OS validation. Experiment 008 is described separately below.
+
+
+## Run Experiment 008
+
+```powershell
+cargo run --locked --release --bin experiment008 -- scenario diagnostic Accurate 0 ConflictDriven new-008-config.json
+cargo run --locked --release --bin experiment008 -- run new-008-config.json new-008-report.json
+cargo run --locked --release --bin experiment008 -- scenario generated selected 2000 CostSensitive new-generated.json
+cargo run --locked --release --bin experiment008 -- evaluate new-008-evaluation.json
+cargo run --locked --release --bin experiment008 -- replay new-008-windows.json
+```
+
+Use `scenario generated injected 2000 NeverInvestigate new-injected.json` for the matched controller control. File outputs refuse overwrites. [Specification](experiments/008/specification.md), [findings](experiments/008/results.md) and [validation](experiments/008/validation.md) distinguish optional investigation, costly missing/false results, private information and selected disclosure. Findings add support under visible provenance assumptions; they do not replace original observations automatically. Effort persists across incidents alongside the unchanged bounded local credibility mechanism. Full JSON reports contain observer secrets; typed policy views never receive the report or latent artifact content. The separate [008 CI workflow](.github/workflows/experiment008-replay.yml) preserves the pinned toolchain and compares independently regenerated Windows/Linux manifests. No Experiment 009 is included.
 
 ## What this repository must not claim
 

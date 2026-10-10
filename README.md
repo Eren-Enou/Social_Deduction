@@ -1,6 +1,6 @@
 # SocialDeduction
 
-> **Status:** Experiments 001 through 007 implemented and evaluated. Historical baselines are preserved. Experiment 007 tests fallible verification, local quarantine, held-out forecasts and decision reliability. Windows replay is validated; Windows/Linux agreement remains unverified.
+> **Status:** Experiments 001 through 009 implemented and evaluated. Historical baselines are preserved. Experiment 009 tests local evidence target selection, fallible information-value forecasts, variable costs and persistent resource budgets. Windows replay is validated; Windows/Linux agreement remains unverified.
 >
 > **Primary purpose:** Build a controlled, game-like social-deduction environment to study the conditions under which artificial individuals communicate truthfully, make mistakes, withhold information, or intentionally deceive one another.
 
@@ -152,7 +152,26 @@ cargo run --locked --release --bin experiment008 -- evaluate new-008-evaluation.
 cargo run --locked --release --bin experiment008 -- replay new-008-windows.json
 ```
 
-Use `scenario generated injected 2000 NeverInvestigate new-injected.json` for the matched controller control. File outputs refuse overwrites. [Specification](experiments/008/specification.md), [findings](experiments/008/results.md) and [validation](experiments/008/validation.md) distinguish optional investigation, costly missing/false results, private information and selected disclosure. Findings add support under visible provenance assumptions; they do not replace original observations automatically. Effort persists across incidents alongside the unchanged bounded local credibility mechanism. Full JSON reports contain observer secrets; typed policy views never receive the report or latent artifact content. The [frozen primary evidence](evidence/experiment-008.json) contains 608 replayed series/1824 incidents; a separate [cost control](evidence/experiment-008-cost-control.json) preserves two full matched reports. The complete 124-test pre-freeze gate and additional frozen regression pass. Actual Windows replay passes; Linux remains unverified. The separate [008 CI workflow](.github/workflows/experiment008-replay.yml) preserves the pinned toolchain and compares independently regenerated Windows/Linux manifests. No Experiment 009 is included.
+Use `scenario generated injected 2000 NeverInvestigate new-injected.json` for the matched controller control. File outputs refuse overwrites. [Specification](experiments/008/specification.md), [findings](experiments/008/results.md) and [validation](experiments/008/validation.md) distinguish optional investigation, costly missing/false results, private information and selected disclosure. Findings add support under visible provenance assumptions; they do not replace original observations automatically. Effort persists across incidents alongside the unchanged bounded local credibility mechanism. Full JSON reports contain observer secrets; typed policy views never receive the report or latent artifact content. The [frozen primary evidence](evidence/experiment-008.json) contains 608 replayed series/1824 incidents; a separate [cost control](evidence/experiment-008-cost-control.json) preserves two full matched reports. The complete 124-test pre-freeze gate and additional frozen regression pass. Actual Windows replay passes; Linux remains unverified. The separate [008 CI workflow](.github/workflows/experiment008-replay.yml) preserves the pinned toolchain and compares independently regenerated Windows/Linux manifests. This section records the historical 008 validation; 009 is described separately below.
+
+## Run Experiment 009
+
+```powershell
+cargo run --locked --release --bin experiment009 -- scenario diagnostic QualityVsCost 0 InformationValueHeuristic new-009-config.json
+cargo run --locked --release --bin experiment009 -- run new-009-config.json new-009-report.json
+cargo run --locked --release --bin experiment009 -- scenario generated selected 3000 BudgetAwareTarget new-009-world.json
+cargo run --locked --release --bin experiment009 -- evaluate new-009-evaluation.json
+cargo run --locked --release --bin experiment009 -- controls new-009-controls.json
+cargo run --locked --release --bin experiment009 -- counterfactuals new-009-alternatives.json
+cargo run --locked --release --bin experiment009 -- replay new-009-windows.json
+cargo fmt --all -- --check
+cargo clippy --locked --all-targets --all-features -- -D warnings
+cargo test --locked --all-features --release
+```
+
+File outputs refuse overwrites. [Specification](experiments/009/specification.md), [findings](experiments/009/results.md) and [validation](experiments/009/validation.md) separate public instrument claims from latent findings, possible-result forecasts from factual usefulness, resolver-enforced prices from free injections, and voluntary choices from forced observer alternatives. Seven replaceable policies choose among accessible sources or decline while retaining effort across incidents. Full reports contain observer secrets; only own typed evidence/catalog/balance enter a policy.
+
+[Frozen 009 evidence](evidence/experiment-009.json) contains 960 primary series/2880 incidents: 448 diagnostics and 512 treatments over 64 independent held-out worlds, plus 324 separately replayed intervention/alternative series. The complete 155-test gate and additional frozen regression pass (156 individually validated tests). Selective policies save resources but do not establish a general accuracy advantage; misleading expensive clues, missing results, incorrect expectations and depleted future options remain recorded. Actual Windows replay matches; Linux is unverified. The separate [009 workflow](.github/workflows/experiment009-replay.yml) compares fresh Windows/Linux manifests from the same revision. No push or 010.
 
 ## What this repository must not claim
 

@@ -27,3 +27,6 @@ Completed Experiment 009 on Windows: heterogeneous public source descriptions, l
 
 
 Experiment 010 is separately authorized and preregistered in 1f73c50: bounded experience-based evidence-method estimates, adaptive and exploratory selection, imperfect feedback and nonstationary quality. Implementation is underway; results/validation must report actual predictive, selection, judgment and resource findings separately. No completion or calibration claim is established by the estimator definition. Experiment 011 remains outside scope.
+
+
+Completed Experiment 010: bounded local recurring-method experience, separate accuracy/missingness estimates, adaptive/conservative/exploratory source selection, paid matched history and fixed-current controls, and stationary/nonstationary held-out evaluation. Evidence records 3,632 series and 28,864 incidents. Choices respond to local history, but calibrated reliability, general prediction/voting improvement and robust recovery remain unestablished. Exploration costs and adverse post-shift forecasts are retained. Actual Windows replay matches; Linux remains unverified. See experiments/010/results.md and validation.md. Experiment 011 remains outside scope.

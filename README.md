@@ -180,3 +180,17 @@ The simulation does not prove consciousness, genuine free will, human-equivalent
 ## Source and licensing note
 
 Commercial social-deduction games are design inspiration, not a requirement to reproduce protected artwork, character text, or a branded digital game. The first prototype should use original rules and terminology. Choose a repository license deliberately; this starter does not select one.
+
+
+## Experiment 010 - experience-based evidence reliability
+
+Experiment 010 is implemented and evaluated. Bounded local method histories update separate accuracy and missingness estimates from own observations and legally accepted fallible feedback. Replaceable selectors can use those estimates, retain advertised priors under sparse experience, explore at actual cost, or decline. Hidden method quality changes across episodes without being exposed to policies.
+
+```powershell
+cargo run --locked --release --bin experiment010 -- scenario generated Clean 4000 ExperienceAdjusted new-010-config.json
+cargo run --locked --release --bin experiment010 -- run new-010-config.json new-010-report.json
+cargo run --locked --release --bin experiment010 -- evaluate new-010-evaluation.json
+cargo run --locked --release --bin experiment010 -- replay new-010-windows.json
+```
+
+Outputs refuse overwrites. [Specification](experiments/010/specification.md), [findings](experiments/010/results.md) and [validation](experiments/010/validation.md) document 3,632 replayed series / 28,864 incidents, including 128 independent held-out worlds, paid matched training and fixed-current history controls. [Frozen evidence](evidence/experiment-010.json) and [actual Windows replay](evidence/experiment-010-windows.json) preserve null and negative outcomes. Local experience changes choices and reduces some resource costs, but establishes neither calibrated probabilities nor general predictive/voting superiority. Linux replay remains unverified; the [workflow](.github/workflows/experiment010-replay.yml) has not been executed. Experiment 011 is outside scope.

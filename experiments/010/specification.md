@@ -69,3 +69,8 @@ Pre-primary reporting clarification: count strata use eligible graded counts for
 
 
 Pre-primary audit addition: retain a third forecast scope for generated uninspected, uninjected accessible alternatives, alongside voluntary selected-only and all-accessible scopes. It is explicitly labeled uninspected_only; this adds descriptive observer scoring without changing policies, distributions or primary comparisons. No held-out outcome has been evaluated.
+
+
+## Completion record
+
+The preregistered experiment is implemented and evaluated without held-out tuning. Actual primary and independent Windows replay used 0cf42d3, with 3,632 series and 28,864 incidents, including 128 independent held-out worlds. Findings preserve sparse evidence, accepted false feedback, unrecovered preferences, null voting contrasts and costly exploration. See results.md and validation.md for executed counts, intervals, causal controls, audit hashes and portability limits. A later output-buffer-only change preserves exact JSON bytes. Linux agreement and calibrated reliability remain unverified; no Experiment 011 is started. Earlier specification text is retained as the historical preregistration.

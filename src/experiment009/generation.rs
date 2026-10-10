@@ -92,6 +92,7 @@ pub fn diagnostic_config(family: Diagnostic, seed: u64, kind: PolicyKind) -> Con
                 expensive.declared_accuracy = cheap.declared_accuracy;
                 expensive.declared_missing = cheap.declared_missing;
                 expensive.category = cheap.category;
+                expensive.separate_acquisition_disclosed = cheap.separate_acquisition_disclosed;
                 if family == Diagnostic::EqualSources {
                     expensive.cost = 1;
                 }
@@ -241,7 +242,7 @@ impl WorldGenerator for Generator {
                     0 => Category::Partial,
                     1 => Category::Physical,
                     2 => Category::Specialized,
-                    _ => Category::Derived,
+                    _ => Category::Physical,
                 };
                 a.declared_accuracy = 25 + 25 * (rng.draw() % 4) as u8;
                 a.declared_missing = 25 * (rng.draw() % 3) as u8;

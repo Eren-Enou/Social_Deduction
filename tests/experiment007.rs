@@ -534,11 +534,16 @@ fn primary_evaluation_replays_all_worlds_and_preserves_matched_inputs() {
         assert_eq!(c.identical_current_wire, 64);
         assert_eq!(c.identical_current_private_inputs, 64);
     }
-    let frozen = std::path::Path::new("evidence/experiment-007.json");
-    if frozen.exists() {
-        assert_eq!(
-            serde_json::to_vec(&e).unwrap(),
-            std::fs::read(frozen).unwrap()
-        );
-    }
+    assert_eq!(
+        serde_json::to_vec(&e).unwrap(),
+        std::fs::read("evidence/experiment-007.json").unwrap()
+    );
+    let platform: PlatformReplay =
+        serde_json::from_slice(&std::fs::read("evidence/experiment-007-windows.json").unwrap())
+            .unwrap();
+    assert_eq!(platform.execution.os, "windows");
+    assert_eq!(
+        platform.manifest,
+        ReplayManifest::from_evaluation(&e).unwrap()
+    );
 }

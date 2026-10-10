@@ -30,3 +30,6 @@ Experiment 010 is separately authorized and preregistered in 1f73c50: bounded ex
 
 
 Completed Experiment 010: bounded local recurring-method experience, separate accuracy/missingness estimates, adaptive/conservative/exploratory source selection, paid matched history and fixed-current controls, and stationary/nonstationary held-out evaluation. Evidence records 3,632 series and 28,864 incidents. Choices respond to local history, but calibrated reliability, general prediction/voting improvement and robust recovery remain unestablished. Exploration costs and adverse post-shift forecasts are retained. Actual Windows replay matches; Linux remains unverified. See experiments/010/results.md and validation.md. Experiment 011 remains outside scope.
+
+
+Experiment 011 is separately authorized and preregistered in b689d92: social transmission of recurring-method experience, bounded recipient-local testimony, voluntary sharing/relays/corrections, visible provenance and replaceable interpretation. Implementation/evaluation is in progress; no accuracy, collective intelligence or calibration result is presumed. Preserve source/evidence 001-010. Experiment 012 remains outside scope.

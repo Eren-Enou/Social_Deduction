@@ -1,0 +1,14 @@
+{
+  "version": "config-002-v1",
+  "seed": 7,
+  "policies": ["IncentiveSensitive", "IncentiveSensitive", "IncentiveSensitive", "IncentiveSensitive", "IncentiveSensitive", "IncentiveSensitive"],
+  "incentives": [
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1}
+  ],
+  "participation_briefing": true
+}

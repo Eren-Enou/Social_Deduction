@@ -1,0 +1,31 @@
+{
+  "version": "config-005-v1",
+  "seed": 0,
+  "observations": [2, null, null, null, null, null],
+  "participation_briefing": false,
+  "order": [0, 1, 2, 3, 4, 5],
+  "speakers": [
+    "Sincere",
+    {"Retain":{"Baseline":{"kind":"Silent","attribution":null}}},
+    {"Retain":{"Baseline":{"kind":"Silent","attribution":null}}},
+    {"Retain":{"Baseline":{"kind":"Silent","attribution":null}}},
+    {"Retain":{"Baseline":{"kind":"Silent","attribution":null}}},
+    {"Retain":{"Baseline":{"kind":"Silent","attribution":null}}}
+  ],
+  "listeners": ["Revision", "Revision", "Revision", "Revision", "Revision", "Revision"],
+  "judgments": ["Current", "Current", "Current", "Current", "Current", "Current"],
+  "incentives": [
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1},
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1},
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1},
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1},
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1},
+    {"accuracy":6,"avoid_blame":0,"contradiction_cost":1,"speech_cost":1}
+  ],
+  "revision_benefit": [2,2,2,2,2,2],
+  "revision_cost": [1,1,1,1,1,1],
+  "routes": [[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5]],
+  "second_routes": [[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5],[0,1,2,3,4,5]],
+  "later": [{"before_slot":6,"agent":0,"candidate":1}],
+  "injections": []
+}

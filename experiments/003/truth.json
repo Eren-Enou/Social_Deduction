@@ -1,0 +1,20 @@
+{
+  "version": "config-003-v1",
+  "seed": 7,
+  "layout": [0, 1, 2, 3, 4, 5],
+  "speaking_order": [0, 1, 2, 3, 4, 5],
+  "communication": ["Truthful", "Truthful", "Truthful", "Truthful", "Truthful", "Truthful"],
+  "listeners": ["Evidence", "Evidence", "Evidence", "Evidence", "Evidence", "Evidence"],
+  "judgments": ["Current", "Current", "Current", "Current", "Current", "Current"],
+  "incentives": [
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1}
+  ],
+  "participation_briefing": true,
+  "observation_override": null,
+  "injections": []
+}

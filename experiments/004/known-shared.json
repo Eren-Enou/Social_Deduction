@@ -1,0 +1,27 @@
+{
+  "version": "config-004-v1",
+  "seed": 0,
+  "observations": [1, null, null, 2, 2, 2],
+  "participation_briefing": false,
+  "order": [0, 1, 2, 3, 4, 5],
+  "speakers": [
+    {"Baseline": {"kind": "Truthful", "attribution": null}},
+    {"Relay": {"source": 0, "presentation": "Disclose"}},
+    {"Relay": {"source": 0, "presentation": "Disclose"}},
+    {"Baseline": {"kind": "Silent", "attribution": null}},
+    {"Baseline": {"kind": "Silent", "attribution": null}},
+    {"Baseline": {"kind": "Silent", "attribution": null}}
+  ],
+  "listeners": ["Provenance", "Provenance", "Provenance", "Provenance", "Provenance", "Provenance"],
+  "judgments": ["Current", "Current", "Current", "Current", "Current", "Current"],
+  "incentives": [
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1},
+    {"accuracy": 6, "avoid_blame": 0, "contradiction_cost": 1, "speech_cost": 1}
+  ],
+  "routes": [[0, 1, 2, 3, 4, 5], [3, 4, 5], [3, 4, 5], [0, 1, 2, 3, 4, 5], [0, 1, 2, 3, 4, 5], [0, 1, 2, 3, 4, 5]],
+  "injections": []
+}

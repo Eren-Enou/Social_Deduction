@@ -836,3 +836,30 @@ fn cli_scenario_reproduces_library_and_refuses_overwrite() {
     std::fs::remove_file(report).unwrap();
     std::fs::remove_dir(root).unwrap();
 }
+
+#[test]
+fn matched_equal_source_metadata_differs_only_in_identity_and_declared_cost() {
+    for family in [Diagnostic::EqualSources, Diagnostic::CostDifference] {
+        let c = diagnostic_config(family, 0, PolicyKind::NeverInvestigate);
+        for i in c.incidents {
+            let a = i.artifacts[0].public();
+            let mut b = i.artifacts[1].public();
+            b.descriptor.id = a.descriptor.id;
+            b.method_key = a.method_key.clone();
+            if family == Diagnostic::CostDifference {
+                b.cost = a.cost;
+            }
+            assert_eq!(a, b);
+        }
+    }
+    for seed in 0..16 {
+        for i in Generator.generate(seed).base.incidents {
+            for s in i.artifacts {
+                assert_eq!(
+                    s.category == Category::Derived,
+                    matches!(s.actual_root, Root::Observation(_))
+                );
+            }
+        }
+    }
+}

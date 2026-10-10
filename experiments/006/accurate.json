@@ -1,0 +1,760 @@
+{
+  "version": "config-006-v1",
+  "incidents": [
+    {
+      "version": "config-005-v1",
+      "seed": 0,
+      "observations": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "participation_briefing": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "speakers": [
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Truthful",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        }
+      ],
+      "listeners": [
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision"
+      ],
+      "judgments": [
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current"
+      ],
+      "incentives": [
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        }
+      ],
+      "revision_benefit": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "revision_cost": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "routes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "second_routes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "later": [],
+      "injections": []
+    },
+    {
+      "version": "config-005-v1",
+      "seed": 1,
+      "observations": [
+        5,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "participation_briefing": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "speakers": [
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Truthful",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        }
+      ],
+      "listeners": [
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision"
+      ],
+      "judgments": [
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current"
+      ],
+      "incentives": [
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        }
+      ],
+      "revision_benefit": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "revision_cost": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "routes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "second_routes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "later": [],
+      "injections": []
+    },
+    {
+      "version": "config-005-v1",
+      "seed": 2,
+      "observations": [
+        4,
+        null,
+        5,
+        null,
+        null,
+        null
+      ],
+      "participation_briefing": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "speakers": [
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Truthful",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Truthful",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        },
+        {
+          "Retain": {
+            "Baseline": {
+              "kind": "Silent",
+              "attribution": null
+            }
+          }
+        }
+      ],
+      "listeners": [
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision",
+        "Revision"
+      ],
+      "judgments": [
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current",
+        "Current"
+      ],
+      "incentives": [
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        },
+        {
+          "accuracy": 6,
+          "avoid_blame": 0,
+          "contradiction_cost": 1,
+          "speech_cost": 1
+        }
+      ],
+      "revision_benefit": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "revision_cost": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "routes": [
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "second_routes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "later": [],
+      "injections": []
+    }
+  ],
+  "listener": "Credibility",
+  "updater": "Evidence",
+  "feedback": [
+    {
+      "after_episode": 0,
+      "about_episode": 0,
+      "recipients": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kind": "Verification"
+    },
+    {
+      "after_episode": 1,
+      "about_episode": 1,
+      "recipients": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kind": "Verification"
+    }
+  ]
+}

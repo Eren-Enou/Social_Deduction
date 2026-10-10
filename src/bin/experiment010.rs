@@ -1,8 +1,16 @@
 use social_deduction::{experiment007 as e7, experiment010::*};
-use std::{error::Error, fs, fs::OpenOptions, io::Write};
+use std::{
+    error::Error,
+    fs,
+    fs::OpenOptions,
+    io::{BufWriter, Write},
+};
 fn write<T: serde::Serialize>(v: &T, path: Option<&String>) -> Result<(), Box<dyn Error>> {
     if let Some(p) = path {
-        let mut f = OpenOptions::new().write(true).create_new(true).open(p)?;
+        let mut f = BufWriter::with_capacity(
+            64 * 1024,
+            OpenOptions::new().write(true).create_new(true).open(p)?,
+        );
         serde_json::to_writer(&mut f, v)?;
         f.flush()?;
     } else {

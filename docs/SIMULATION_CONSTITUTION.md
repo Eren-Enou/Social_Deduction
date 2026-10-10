@@ -1,6 +1,6 @@
 # Simulation Constitution
 
-Authoritative for Experiments 001–005. Reconstructed from the supplied AGENTS.md because the referenced documents were absent at development start. Its ten principles are unchanged by subsequent experiments. Public records mean legitimately delivered messages: scoped communications remain unavailable to other individuals. In 005, revisions change current evidential interpretation, never historical message existence or old mental snapshots.
+Authoritative for Experiments 001–006. Reconstructed from the supplied AGENTS.md because the referenced documents were absent at development start. Its ten principles are unchanged by subsequent experiments. Public records mean legitimately delivered messages: scoped communications remain unavailable to other individuals. In 005, revisions change current evidential interpretation, never historical message existence or old mental snapshots. In 006, only declared local memories/consequences persist; authenticated outcome feedback is explicitly delivered controller evidence, and bounded detail evictions cannot be repaired from the observer archive. Each replaceable cognition component receives its narrow local view.
 
 1. Identifiable causality: record inputs, actions, validation, and effects.
 2. Information locality: policies receive only typed legal observations and public records.

@@ -2,6 +2,8 @@
 
 Status: preregistration before implementation and primary evaluation. Commit this protocol before evaluating. Preserve all 001–005 engines, tests and frozen evidence. Local branch codex/experiment-006; only relevant staged changes, no push. No Experiment 007.
 
+Completion record (added after evaluation): preregistered protocol committed as `0124577`; implementation `a63fa3b`; frozen evidence `33afd2a`. Experiment006 is implemented and evaluated. The original protocol below remains unchanged; see results.md and validation.md for measured outcomes and gates. No primary weights, algorithms, fixtures or seeds were changed after evaluation.
+
 ## Versioned boundary and hypotheses
 
 multi-incident-006-v1, config-006-v1, local-memory-006-v1, accuracy-update-006-v1, lab-verification-006-v1, credibility-listener-006-v1. Reuse unchanged 005 rules/resolver/revision listener and communication/judgment policies via replaceable listener adapters. Six persistent IDs 0–5, at most eight independent incidents, 18 decisions each, fresh temporary state/policies per incident. Only declared local credit summaries and bounded experience records persist. Message/acquisition/event indices remain incident-local inside an episode envelope; cross-incident references always pair episode and local ID. No previous game or observer report is policy input.

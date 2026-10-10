@@ -104,7 +104,20 @@ cargo run --bin experiment005 -- run experiments/005/sincere.json
 cargo run --bin experiment005 -- evaluate evidence/experiment-005-repeat.json
 ```
 
-Outputs refuse existing files. The [specification](experiments/005/specification.md) defines explicit own-message revisions, branch disputes, local observation updates, selective costs and relay verification. [Findings](experiments/005/results.md), [validation](experiments/005/validation.md) and [frozen evidence](evidence/experiment-005.json) distinguish private change, selected disclosure and actual recipient recovery. Original messages remain immutable; missing references stay unavailable. Fifty-nine automated tests preserve all five frozen replay contracts.
+Outputs refuse existing files. The [specification](experiments/005/specification.md) defines explicit own-message revisions, branch disputes, local observation updates, selective costs and relay verification. [Findings](experiments/005/results.md), [validation](experiments/005/validation.md) and [frozen evidence](evidence/experiment-005.json) distinguish private change, selected disclosure and actual recipient recovery. Original messages remain immutable; missing references stay unavailable. The historical005 gate passed 59 tests; its frozen contract remains in the current suite.
+
+## Run Experiment 006
+
+```powershell
+cargo run --bin experiment006 -- run experiments/006/accurate.json
+cargo run --bin experiment006 -- example new-series-config.json
+cargo run --bin experiment006 -- evaluate evidence/experiment-006-repeat.json
+cargo fmt --check
+cargo clippy --all-targets -- -D warnings
+cargo test
+```
+
+Outputs refuse overwrites. The [specification](experiments/006/specification.md) preregisters stable six-person identities across at most eight independent incidents, bounded local experience, authenticated feedback delivery and transparent credibility weights extending unchanged005 revision/provenance rules. [Findings](experiments/006/results.md), [validation](experiments/006/validation.md) and [frozen evidence](evidence/experiment-006.json) preserve 352 series/1056 incidents, local observer disagreement, beneficial judgment and trusted falsehood. Seventy-five tests include all six frozen byte-regression contracts. No dependencies or ECS were added. Full observer reports contain secrets; only own received messages and explicitly delivered verification enter local memory. No Experiment007 has begun.
 
 ## What this repository must not claim
 

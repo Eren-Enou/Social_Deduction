@@ -15,6 +15,8 @@ jobs:
       - name: Install pinned research toolchain
         run: rustup toolchain install 1.99.0 --profile minimal --component rustfmt --component clippy
       - name: Retrieve and verify required frozen evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python scripts/fetch_evidence.py
       - name: Audit publishing history size
         run: python scripts/verify_publication.py

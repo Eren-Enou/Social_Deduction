@@ -194,3 +194,17 @@ cargo run --locked --release --bin experiment010 -- replay new-010-windows.json
 ```
 
 Outputs refuse overwrites. [Specification](experiments/010/specification.md), [findings](experiments/010/results.md) and [validation](experiments/010/validation.md) document 3,632 replayed series / 28,864 incidents, including 128 independent held-out worlds, paid matched training and fixed-current history controls. [Frozen evidence](evidence/experiment-010.json) and [actual Windows replay](evidence/experiment-010-windows.json) preserve null and negative outcomes. Local experience changes choices and reduces some resource costs, but establishes neither calibrated probabilities nor general predictive/voting superiority. Linux replay remains unverified; the [workflow](.github/workflows/experiment010-replay.yml) has not been executed. Experiment 011 is outside scope.
+
+
+## Experiment 011 - social transmission of method experience
+
+Experiment 011 is implemented, evaluated and frozen. Individuals can voluntarily report, withhold, relay, correct or retract bounded method assessments. Recipients keep testimony separate from their own verified samples; replaceable interpreters can use personal evidence alone, immediate-speaker support, visible provenance or local interpersonal credit. These influence later affordable investigations without exposing hidden quality or simulation ancestry.
+
+```powershell
+cargo run --locked --release --bin experiment011 -- scenario generated 5000 SincereProvenance new-011-config.json
+cargo run --locked --release --bin experiment011 -- run new-011-config.json new-011-report.json
+cargo run --locked --release --bin experiment011 -- evaluate new-011-evaluation.json
+cargo run --locked --release --bin experiment011 -- replay new-011-windows.json
+```
+
+Outputs refuse overwrites. [Specification](experiments/011/specification.md), [findings](experiments/011/results.md) and [validation](experiments/011/validation.md) document 952 reproducible series / 7,616 incidents, 64 matched held-out worlds and 96 paired comparisons. [Frozen evidence](evidence/experiment-011.json) and [actual Windows replay](evidence/experiment-011-windows.json) retain null/adverse outcomes. Reports change choices; visible provenance groups some duplication, while hidden copying and unreliable testimony can mislead. No general social-learning advantage or calibrated forecasts were established. Linux replay remains unverified; the [workflow](.github/workflows/experiment011-replay.yml) has not run. Closing it requires a Linux x86_64 host or explicit authorized CI execution. Earlier experiment entries record their historical scope. Experiment 012 has not begun.

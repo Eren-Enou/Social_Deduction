@@ -33,3 +33,8 @@ Completed Experiment 010: bounded local recurring-method experience, separate ac
 
 
 Experiment 011 is separately authorized and preregistered in b689d92: social transmission of recurring-method experience, bounded recipient-local testimony, voluntary sharing/relays/corrections, visible provenance and replaceable interpretation. Implementation/evaluation is in progress; no accuracy, collective intelligence or calibration result is presumed. Preserve source/evidence 001-010. Experiment 012 remains outside scope.
+
+
+## Experiment 011 completed
+
+Implemented and evaluated minimal voluntary transmission of method experience: typed bounded reports, separate local social memory, replaceable sharing/interpretation, visible provenance, own corrections/retractions, costly investigation integration and matched controls. Frozen evidence covers 952 replayed series / 7,616 incidents and 64 held-out worlds. Local influence is demonstrated; a general social-learning advantage is not. Hidden copying, mistaken accepted feedback, routing gaps, stale claims and credibility weighting produce measured adverse/null results. [Findings](../experiments/011/results.md) and [validation](../experiments/011/validation.md) preserve these limitations. Linux replay remains unresolved with explicit infrastructure/authorization requirements. Experiment 012 and broader institutions/cooperation remain proposals; no implementation started.

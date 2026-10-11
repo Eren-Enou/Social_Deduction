@@ -1,1 +1,11 @@
 /target/
+
+# Exact release-managed artifacts are fetched and verified, never tracked.
+/evidence/experiment-006.json
+/evidence/experiment-007.json
+/evidence/experiment-009.json
+/evidence/experiment-010.json
+/evidence/experiment-011.json
+/evidence/experiment-012.json
+
+__pycache__/

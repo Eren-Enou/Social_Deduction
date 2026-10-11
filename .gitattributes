@@ -1,0 +1,3 @@
+# Frozen JSON is compared byte for byte and must survive Windows checkouts.
+/evidence/experiment-*.json -text -diff
+/Cargo.lock -text

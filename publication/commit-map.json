@@ -1,0 +1,206 @@
+{
+  "original_head": "f13bb0998a3bf6f3e63299e276015becf1452aa5",
+  "sanitized_head": "15fa0e2a293e0c140608bdabb5aac5b176e6e86a",
+  "publishing_branch": "codex/publish-experiment-012",
+  "stripped_blobs": [
+    {
+      "blob": "e97b4812cdf34194cc76e89b329a044b52fdb66f",
+      "bytes": 405837038,
+      "sha256": "34e27342c14c1b09fe44cd268e9d9f5dc38d7335797bbdbdb32de4098fc5a360",
+      "paths": [
+        "evidence/experiment-006.json"
+      ],
+      "reachable": true
+    },
+    {
+      "blob": "5be50b6cf1915388b355b6196f1ed78d8a9cc94e",
+      "bytes": 117084630,
+      "sha256": "1ce7952585ab3197243daf33b8ecc68dc54b071f7a6c508953d830ed61e21864",
+      "paths": [
+        "evidence/experiment-007.json"
+      ],
+      "reachable": true
+    },
+    {
+      "blob": "fdaccf0484427f6305d04c38a6c8a648e123d1cd",
+      "bytes": 125151900,
+      "sha256": "157019ee5c078b609f34dee295ce4e6415e9411367f13ea77c29aa48183b1872",
+      "paths": [
+        "evidence/experiment-009.json"
+      ],
+      "reachable": true
+    },
+    {
+      "blob": "43923d49ea0880495282ac9e234f7a2f5f261185",
+      "bytes": 972371932,
+      "sha256": "68d25a4799f79d21aff002da6867132fc1a0d69975542e3a5bc5f7d9df0905b6",
+      "paths": [
+        "evidence/experiment-010.json"
+      ],
+      "reachable": true
+    },
+    {
+      "blob": "cd7869e82f551acaaf01b9bf61b6d2aefed2a2b7",
+      "bytes": 233454880,
+      "sha256": "001bfe314e3c65e7c43f886a75836e9aceff4153021595fe4ac7992ca5ea262f",
+      "paths": [
+        "evidence/experiment-011.json"
+      ],
+      "reachable": true
+    },
+    {
+      "blob": "a5a21acce3c49a3f5cd36c640456d678fb1da73e",
+      "bytes": 300005474,
+      "sha256": "f22a61dbeca029dd29977228805ab9c932f5e834433c61c8edaca1da0157b4f2",
+      "paths": [
+        "evidence/experiment-012.json"
+      ],
+      "reachable": true
+    }
+  ],
+  "commit_mapping": [
+    {
+      "original": "6315247c46ff0a2f23b07010a0a59b58b9372b3d",
+      "publishing": "149f3405345e776a9b678cb7173d8bc87e01c2f6"
+    },
+    {
+      "original": "6feb6958946c3abd92beab28f16a47cb55dce32d",
+      "publishing": "d23adee8f165f698fe9fab28283f9e26bf451a5f"
+    },
+    {
+      "original": "0124577539fe2e44ad73b00d5b01a056d9630852",
+      "publishing": "0124577539fe2e44ad73b00d5b01a056d9630852"
+    },
+    {
+      "original": "2e40d2d8a6e2d580feca3e1de0c4e2d8907846b2",
+      "publishing": "b54ba44abf9b94ea25ace12980d01db0132c11dc"
+    },
+    {
+      "original": "44d044e5a76a512050b2594986f4894e8b097d0a",
+      "publishing": "f094afedc8fcdce808a344f5a84105dc8612a987"
+    },
+    {
+      "original": "071e74b4af894206279c78755cf8f57929d55a0a",
+      "publishing": "9ea4433848952523f9f05717e8cb4e178aa790ea"
+    },
+    {
+      "original": "6b56a42922279cf1d8b0f94fe1269acd8d41e5e1",
+      "publishing": "375fa9962384da29a0bf71ebff6f120883d28a1e"
+    },
+    {
+      "original": "5102065b2e0c8cb855f8af0d53c6d33f620b97f3",
+      "publishing": "bcbab20d9f2519dc2d1d8a1a98bc1a19721b38ca"
+    },
+    {
+      "original": "99b8a1e5d520fef20f26dd1c48cc30d411706678",
+      "publishing": "d7cf3886bc917bc427cc8baea22e27609ad0c37c"
+    },
+    {
+      "original": "9d38499da2aa876b8312011a3da111920d014ec1",
+      "publishing": "cc90afe421cbe3052a8a301720e197b33000c63f"
+    },
+    {
+      "original": "1f73c5077adb008beec0636bfb74b7ef654ba5a3",
+      "publishing": "ace7080691f33d268c004e7cff72b055a0549a89"
+    },
+    {
+      "original": "e98ca725b674ce57d5c3ccec408e2fedbbdb219b",
+      "publishing": "b1df0ba9f4a2125e6a3eeecff2ca0d3a56b82337"
+    },
+    {
+      "original": "b7bc55521b2837a74921713802265115bebd8324",
+      "publishing": "5594a857e8aa9b8bb611e86bfbb2fd4f22fb9cbd"
+    },
+    {
+      "original": "ba439e8a06a9bb2ad90a94aff0e0fbd9ab54ff61",
+      "publishing": "af3f548cdb72fc597462fbd13f6b1c2d6bab0f0f"
+    },
+    {
+      "original": "596e8a62a6cfddd957556049b921a27cfcbe0f20",
+      "publishing": "634538efc4da40be5e7065778c744789d3a0d7c6"
+    },
+    {
+      "original": "a63fa3b87752adaf88eb4e3657a3c49dd5cab8d4",
+      "publishing": "a63fa3b87752adaf88eb4e3657a3c49dd5cab8d4"
+    },
+    {
+      "original": "b689d92e86402c1126d394f83e943d226830567c",
+      "publishing": "baae55a4f8148f3d5220d646450ab8ce5d525843"
+    },
+    {
+      "original": "6dfef69783999b9594425e9b9c8f291a38c72a31",
+      "publishing": "437f937a3dd8565be8faf39a20f6bc50871056eb"
+    },
+    {
+      "original": "33afd2aa7873ffa5d48c4b5a889ab082e1c21ffb",
+      "publishing": "62e7dc093c95dfaa75707a20a0676226f90a5d9c"
+    },
+    {
+      "original": "6df52b493c94dd224d123cad8ccad3a0319b1f50",
+      "publishing": "6df52b493c94dd224d123cad8ccad3a0319b1f50"
+    },
+    {
+      "original": "f13bb0998a3bf6f3e63299e276015becf1452aa5",
+      "publishing": "15fa0e2a293e0c140608bdabb5aac5b176e6e86a"
+    },
+    {
+      "original": "241cd816dcdcc0169a59184b53a17fd4e3dac890",
+      "publishing": "401029205733fe687635186f59ba1a5ffdd9c49f"
+    },
+    {
+      "original": "c2b4ee278cc2d52250b2dcde53ef84c7b6b4bee8",
+      "publishing": "1d227e3b2c1ee07dd3ae1dd22f336fc0da644d37"
+    },
+    {
+      "original": "1ed74ee7edacf02ef384628777e0683354971c6a",
+      "publishing": "2d45591af4ab16eac1d7fee4bdec8c91e67a3b71"
+    },
+    {
+      "original": "9cdbf593dc7361108939e0e6954a024b6b6a0e9d",
+      "publishing": "9355e125f8191a8c337f9df4945a14c5326e5ede"
+    },
+    {
+      "original": "efceb9df79e12586f79c3eeac63bb69d2e4e3613",
+      "publishing": "0f65e15e43c9c299f3a71554467b3605f9f4c420"
+    },
+    {
+      "original": "621e66888a9debeda312db5e9e5375009a579b36",
+      "publishing": "20282705a11ff2125047571fa57e2476c1cde6e6"
+    },
+    {
+      "original": "1333d30873589c4338a30eeb3fb2f2f9962545ef",
+      "publishing": "80f060484447f9fda7a00366416b8d7bd0c63a89"
+    },
+    {
+      "original": "6f4ee9ab4b2211c0e93c86412bafa1a648f1f27f",
+      "publishing": "6d25c82dd132d04baddf9b6a1cabe60800ce62d5"
+    },
+    {
+      "original": "0cf42d39bbe5eaeed477a4d4d9ef241ba54022a1",
+      "publishing": "f57e35ec7ddd132d5c511f1fb991dff6caa2dd7f"
+    },
+    {
+      "original": "ec98fa242c218339a82daa5cb98b2a9f792b4aed",
+      "publishing": "c68a7dbc0d8dd83d5cd67ea147373b92d84d8e73"
+    },
+    {
+      "original": "8fc3855629abc9a70a4ba1c7617b53c6a85250f9",
+      "publishing": "2a52566bc397e7a223c09153a3b27004d1501b7c"
+    },
+    {
+      "original": "eea133fd44d99158448e48f62ee3a7d9fbcbd66d",
+      "publishing": "be4d5d378ea2bae55a446f77f1079108c3d6e3b7"
+    },
+    {
+      "original": "e2b0f6c4fa58d3abb2b1a5ef13fd1a6447e79cb6",
+      "publishing": "0d4a3cbcea731690b8969433d4c3ff7f5b22c798"
+    },
+    {
+      "original": "50b2db8deca8c8d73b4bdc09221181beffd0f168",
+      "publishing": "ab233ec162f22a0d0ef0b775a11142d0bb36b95f"
+    }
+  ],
+  "verified_all_commit_trees_except_removed_artifacts": true,
+  "verified_commit_authors_dates_messages": true,
+  "no_oversized_blobs": true
+}

@@ -1,0 +1,43 @@
+name: Experiment 010 canonical replay
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  replay:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install pinned research toolchain
+        run: rustup toolchain install 1.99.0 --profile minimal --component rustfmt --component clippy
+      - name: Retrieve and verify required frozen evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/fetch_evidence.py
+      - name: Audit publishing history size
+        run: python scripts/verify_publication.py
+      - name: Verify fail-closed retrieval behavior
+        run: python -m unittest discover -s scripts/tests -v
+      - run: cargo fmt --all -- --check
+      - run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - run: cargo test --locked --all-features --release
+      - name: Independently regenerate canonical manifest
+        run: cargo run --locked --release --bin experiment010 -- replay replay.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: replay010-${{ matrix.os }}
+          path: replay.json
+  compare:
+    needs: replay
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: rustup toolchain install 1.99.0 --profile minimal
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          path: manifests
+      - run: cargo run --locked --release --bin experiment010 -- compare manifests/replay010-windows-latest/replay.json manifests/replay010-ubuntu-latest/replay.json

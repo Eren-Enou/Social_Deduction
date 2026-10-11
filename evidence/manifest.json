@@ -1,0 +1,146 @@
+{
+  "version": "frozen-evidence-release-v1",
+  "repository": "Eren-Enou/Social_Deduction",
+  "original_head": "f13bb0998a3bf6f3e63299e276015becf1452aa5",
+  "storage_release_target": "6df52b493c94dd224d123cad8ccad3a0319b1f50",
+  "artifacts": [
+    {
+      "path": "evidence/experiment-001.json",
+      "bytes": 2725107,
+      "sha256": "5d3b9ed1b7ae71029bdfa2251fc702e1455c38db0e22550ec21282a2821e7356",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-002.json",
+      "bytes": 11841127,
+      "sha256": "08fec1b1685f8e9d5c064374bdec25c4ae6f67da08ae6a88c013a9e16fbb1d32",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-003.json",
+      "bytes": 25296793,
+      "sha256": "758c8afb75fd8b76450ee2b9470bdaf3d90a7849c4e05166002cc2674d6330bd",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-004.json",
+      "bytes": 46286603,
+      "sha256": "f8dee33c8282cc1caafde7d6b5c00cca68e001e96e70ee9b7641c62850a71fad",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-005.json",
+      "bytes": 72225029,
+      "sha256": "3b30bdaec3496d5f4018f42a0d110cc7d67415ee3e0bf73b990ebc7d158e47e6",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-006.json",
+      "bytes": 405837038,
+      "sha256": "34e27342c14c1b09fe44cd268e9d9f5dc38d7335797bbdbdb32de4098fc5a360",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629967529,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-006.json"
+    },
+    {
+      "path": "evidence/experiment-007-windows.json",
+      "bytes": 892966,
+      "sha256": "44cb24f848a90554056b4222752dfd4b15caa85e8f152e33eefe46cd1f5e7d3b",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-007.json",
+      "bytes": 117084630,
+      "sha256": "1ce7952585ab3197243daf33b8ecc68dc54b071f7a6c508953d830ed61e21864",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629967522,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-007.json"
+    },
+    {
+      "path": "evidence/experiment-008-cost-control.json",
+      "bytes": 1923910,
+      "sha256": "9d7447dd3367d9a9c2e3e66cc8e6c7759642db1aa7a244951f34cf17be7d7876",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-008-windows.json",
+      "bytes": 322181,
+      "sha256": "f0aef8d5b460cd2fe5ac68d1fb4429ae64a316c93b39b2c0621edbf9e3d1f381",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-008.json",
+      "bytes": 61244605,
+      "sha256": "fa852e921f549dbb87344c7d3329a913985608b19a930cd456f0cc1c667a09cc",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-009-windows.json",
+      "bytes": 679786,
+      "sha256": "2c38de80a86ba76db54d0b0c918e00f4710730a7e7fc81cc08b3c2b4045d4169",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-009.json",
+      "bytes": 125151900,
+      "sha256": "157019ee5c078b609f34dee295ce4e6415e9411367f13ea77c29aa48183b1872",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629967530,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-009.json"
+    },
+    {
+      "path": "evidence/experiment-010-windows.json",
+      "bytes": 2270551,
+      "sha256": "81d712affd6dd39346e0af475c8dfdbcf7cce4920e62dbf4f856eadb3dbebed7",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-010.json",
+      "bytes": 972371932,
+      "sha256": "68d25a4799f79d21aff002da6867132fc1a0d69975542e3a5bc5f7d9df0905b6",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629967524,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-010.json"
+    },
+    {
+      "path": "evidence/experiment-011-windows.json",
+      "bytes": 555565,
+      "sha256": "12e85f955e09c2faad15f846e091e2ace26fc5265f5a2ef3c4025fcadab5e6a9",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-011.json",
+      "bytes": 233454880,
+      "sha256": "001bfe314e3c65e7c43f886a75836e9aceff4153021595fe4ac7992ca5ea262f",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629967525,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-011.json"
+    },
+    {
+      "path": "evidence/experiment-012-windows.json",
+      "bytes": 466173,
+      "sha256": "de9aebfcf050b92e3a518c31c8139cc54ec5da894d8f65b546c6254a26d7e1c2",
+      "storage": "git"
+    },
+    {
+      "path": "evidence/experiment-012.json",
+      "bytes": 300005474,
+      "sha256": "f22a61dbeca029dd29977228805ab9c932f5e834433c61c8edaca1da0157b4f2",
+      "storage": "github-release",
+      "release_id": 409465057,
+      "asset_id": 629968390,
+      "tag": "frozen-evidence-006-012-f13bb09",
+      "download_url": "https://github.com/Eren-Enou/Social_Deduction/releases/download/untagged-5c2a9444d66db40e8ae2/experiment-012.json"
+    }
+  ]
+}

@@ -14,6 +14,12 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
       - name: Install pinned research toolchain
         run: rustup toolchain install 1.99.0 --profile minimal --component rustfmt --component clippy
+      - name: Retrieve and verify required frozen evidence
+        run: python scripts/fetch_evidence.py
+      - name: Audit publishing history size
+        run: python scripts/verify_publication.py
+      - name: Verify fail-closed retrieval behavior
+        run: python -m unittest discover -s scripts/tests -v
       - run: cargo fmt --all -- --check
       - run: cargo clippy --locked --all-targets --all-features -- -D warnings
       - run: cargo test --locked --all-features --release

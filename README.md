@@ -1,5 +1,7 @@
 # SocialDeduction
 
+Publication checkout: run `python scripts/fetch_evidence.py` before full validation to retrieve the six release-managed frozen artifacts. All 19 evidence hashes are verified. See [retrieval instructions](evidence/README.md) and [publication provenance](publication/commit-map.json). Original research results and commit identifiers are preserved.
+
 > **Status:** Experiments 001 through 009 implemented and evaluated. Historical baselines are preserved. Experiment 009 tests local evidence target selection, fallible information-value forecasts, variable costs and persistent resource budgets. Windows replay is validated; Windows/Linux agreement remains unverified.
 >
 > **Primary purpose:** Build a controlled, game-like social-deduction environment to study the conditions under which artificial individuals communicate truthfully, make mistakes, withhold information, or intentionally deceive one another.

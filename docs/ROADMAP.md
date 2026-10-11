@@ -43,3 +43,10 @@ Implemented and evaluated minimal voluntary transmission of method experience: t
 ## Experiment 012 authorized scope
 
 Experiment 012 adds typed targeted requests, voluntary scoped answers and explicit shared communication capacity. Its preregistration is 596e8a6; pre-primary clarifications document diagnostic conditioning and observation-only probes. Preserve 001-011 engines and frozen evidence. Evaluate prediction, investigation, displaced speech, judgment and resource utility independently against eight matched treatment policies. Completion/findings must be supported by executed gates and frozen reports. Linux execution remains a required external validation unless an actual runner becomes available. No Experiment 013 is authorized.
+
+
+## Experiment 012 completed
+
+Implemented, evaluated and frozen targeted voluntary inquiry with scoped responses and real shared communication opportunity costs. The population contains 696 reproducible series / 5,568 incidents and 64 matched held-out worlds. Legitimate received answers can change paid investigation, known copying remains grouped and hidden ancestry stays inaccessible. Targeted sincere inquiry has no demonstrated default-utility advantage: judgment/coverage worsen versus the principal baselines, while some locally useful answers and narrow forecast improvements occur. Silence can preserve a final opportunity; refusals themselves cost capacity.
+
+[Findings](../experiments/012/results.md) and [validation](../experiments/012/validation.md) retain unanswered questions, misleading rejections, lost testimony, null recovery and historical preservation. All 266 combined tests and the separate frozen regression pass; Windows replay agrees, Linux remains unresolved. Experiment 013 and broader planning/institutions remain outside the implemented scope.

@@ -208,3 +208,17 @@ cargo run --locked --release --bin experiment011 -- replay new-011-windows.json
 ```
 
 Outputs refuse overwrites. [Specification](experiments/011/specification.md), [findings](experiments/011/results.md) and [validation](experiments/011/validation.md) document 952 reproducible series / 7,616 incidents, 64 matched held-out worlds and 96 paired comparisons. [Frozen evidence](evidence/experiment-011.json) and [actual Windows replay](evidence/experiment-011-windows.json) retain null/adverse outcomes. Reports change choices; visible provenance groups some duplication, while hidden copying and unreliable testimony can mislead. No general social-learning advantage or calibrated forecasts were established. Linux replay remains unverified; the [workflow](.github/workflows/experiment011-replay.yml) has not run. Closing it requires a Linux x86_64 host or explicit authorized CI execution. Earlier experiment entries record their historical scope. Experiment 012 has not begun.
+
+
+## Experiment 012 - targeted method inquiry
+
+Experiment 012 is implemented, evaluated and frozen. Individuals voluntarily ask typed private questions about method reliability, availability or retained experience basis. Respondents can answer sincerely, state uncertainty/insufficiency, refuse, remain silent or mislead. Queries, answers and ordinary claims share two submitted outbound actions per incident; recipient-local answers may influence later paid investigations without becoming verified personal samples.
+
+```powershell
+cargo run --locked --release --bin experiment012 -- scenario generated 6000 Targeted new-012-config.json
+cargo run --locked --release --bin experiment012 -- run new-012-config.json new-012-report.json
+cargo run --locked --release --bin experiment012 -- evaluate new-012-evaluation.json
+cargo run --locked --release --bin experiment012 -- replay new-012-windows.json
+```
+
+Outputs refuse overwrites. [Specification](experiments/012/specification.md), [findings](experiments/012/results.md) and [validation](experiments/012/validation.md) document 696 reproducible series / 5,568 incidents, 64 matched held-out worlds and 66 comparisons. [Frozen evidence](evidence/experiment-012.json) and [actual Windows replay](evidence/experiment-012-windows.json) preserve negative/null findings. Received answers change some investigations, but targeted sincere inquiry spends more effort, displaces testimony and underperforms ordinary communication, unsolicited sharing and random inquiry under the declared default utility. Formatting, warnings-denied Clippy, all 266 combined tests and the separate new frozen regression pass (267 distinct tests). Linux replay remains unverified; the [workflow](.github/workflows/experiment012-replay.yml) needs a real Linux runner or explicitly authorized CI execution. Earlier entries retain their historical scope. No Experiment 013 began.

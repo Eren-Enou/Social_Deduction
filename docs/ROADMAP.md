@@ -38,3 +38,8 @@ Experiment 011 is separately authorized and preregistered in b689d92: social tra
 ## Experiment 011 completed
 
 Implemented and evaluated minimal voluntary transmission of method experience: typed bounded reports, separate local social memory, replaceable sharing/interpretation, visible provenance, own corrections/retractions, costly investigation integration and matched controls. Frozen evidence covers 952 replayed series / 7,616 incidents and 64 held-out worlds. Local influence is demonstrated; a general social-learning advantage is not. Hidden copying, mistaken accepted feedback, routing gaps, stale claims and credibility weighting produce measured adverse/null results. [Findings](../experiments/011/results.md) and [validation](../experiments/011/validation.md) preserve these limitations. Linux replay remains unresolved with explicit infrastructure/authorization requirements. Experiment 012 and broader institutions/cooperation remain proposals; no implementation started.
+
+
+## Experiment 012 authorized scope
+
+Experiment 012 adds typed targeted requests, voluntary scoped answers and explicit shared communication capacity. Its preregistration is 596e8a6; pre-primary clarifications document diagnostic conditioning and observation-only probes. Preserve 001-011 engines and frozen evidence. Evaluate prediction, investigation, displaced speech, judgment and resource utility independently against eight matched treatment policies. Completion/findings must be supported by executed gates and frozen reports. Linux execution remains a required external validation unless an actual runner becomes available. No Experiment 013 is authorized.
